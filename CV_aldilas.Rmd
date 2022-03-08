@@ -1,0 +1,64 @@
+---
+title: "CV"
+author: "Aldilas Achmad Nursetyo, M.D., M.Sc."
+output:
+  pdf_document:
+    latex_engine: pdflatex
+    template: D:/Github/svm-r-markdown-templates/svm-latex-cv.tex
+  html_document:
+    df_print: paged
+geometry: margin=1in
+jobtitle: Researcher, Center for Health Policy & Management, Universitas Gadjah Mada
+fontawesome: yes
+phone: +62 813 9169 9700
+email: mail.aldilas@gmail.com
+web: aldeetropolis.github.io
+updated: no
+keywords: R Markdown, academic CV, template
+fontfamily: mathpazo
+fontfamilyoptions: sc, osf
+fontsize: 11pt
+linkcolor: blue
+urlcolor: blue
+bibliography: references.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Summary of Experience
+
+Since 2017, Aldilas has been actively involved in contribute and developing at national and regional level, either academically or direct consultancy. He has experience in developing monitoring and evaluation system in National Family Planning Coordinating Agency (BKKBN) and strengthening national disease surveillance system, especially for early warning and response system (EWARS). He also experienced in research methodology, either quantitative or qualitative methodology, while demonstrating excelence scientific writing and publication experience.
+
+# Education
+
+*Taipei Medical University*, M.Sc. Biomedical Informatics \hfill 2019 
+
+*Universitas Muhammadiyah Yogyakarta*, M.D. \hfill 2015 
+
+*Universitas Muhammadiyah Yogyakarta*, Bachelor of Medicine \hfill 2012
+
+# Projects
+```{r echo=FALSE, message=FALSE}
+library(tidyverse)
+library(readxl)
+library(kableExtra)
+projects <- read_xlsx("D:/projects.xlsx")
+knitr::kable(projects, "latex", booktabs = TRUE, longtable = TRUE) %>%
+  column_spec(1, width = "1cm") %>% 
+  column_spec(2, width = "5cm") %>% 
+  column_spec(3, width = "10cm") %>% 
+  kable_styling(latex_options = c("hold_position", "repeat_header", "striped"))
+```
+
+# Publication
+```{r echo=FALSE}
+bib <- read.csv("D:/citations.csv") %>% select(c(2:3, "Year")) %>% rename("Publication Title" = 1, "Publisher" = 2)
+knitr::kable(bib, "latex", booktabs = TRUE, longtable = TRUE) %>% 
+  column_spec(1, width = "10cm") %>% 
+  column_spec(2, width = "5cm") %>%
+  column_spec(3, width = "1cm") %>%
+  kable_styling(latex_options = c("hold_position", "repeat_header", "striped"))
+```
+
