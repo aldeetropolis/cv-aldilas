@@ -20,7 +20,6 @@ fontfamilyoptions: sc, osf
 fontsize: 11pt
 linkcolor: blue
 urlcolor: blue
-bibliography: references.bib
 ---
 
 ```{r setup, include=FALSE}
