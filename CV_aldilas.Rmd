@@ -32,13 +32,14 @@ Since 2017, Aldilas has been actively involved in contribute and developing at n
 
 # Education
 
-*Taipei Medical University*, M.Sc. Biomedical Informatics \hfill 2019 
+*Taipei Medical University*, M.Sc. Biomedical Informatics \hfill 2019
 
-*Universitas Muhammadiyah Yogyakarta*, M.D. \hfill 2015 
+*Universitas Muhammadiyah Yogyakarta*, M.D. \hfill 2015
 
 *Universitas Muhammadiyah Yogyakarta*, Bachelor of Medicine \hfill 2012
 
 # Projects
+
 ```{r echo=FALSE, message=FALSE}
 library(tidyverse)
 library(readxl)
@@ -52,12 +53,12 @@ knitr::kable(projects, "latex", booktabs = TRUE, longtable = TRUE) %>%
 ```
 
 # Publication
+
 ```{r echo=FALSE}
-bib <- read.csv("citations.csv") %>% select(c(2:3, "Year")) %>% rename("Publication Title" = 1, "Publisher" = 2)
+bib <- read.csv("citations.csv") %>% select(c(2:3, "Year")) %>% rename("Publication Title" = 1, "Publisher" = 2) %>% arrange(-Year)
 knitr::kable(bib, "latex", booktabs = TRUE, longtable = TRUE) %>% 
   column_spec(1, width = "10cm") %>% 
   column_spec(2, width = "5cm") %>%
   column_spec(3, width = "1cm") %>%
   kable_styling(latex_options = c("hold_position", "repeat_header", "striped"))
 ```
-
