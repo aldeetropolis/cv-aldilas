@@ -1,6 +1,6 @@
 ---
 title: "CV"
-author: "Aldilas Achmad Nursetyo, M.D., M.Sc."
+author: "dr. Aldilas Achmad Nursetyo, M.Sc."
 output:
   pdf_document:
     latex_engine: pdflatex
