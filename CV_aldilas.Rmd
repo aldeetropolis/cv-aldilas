@@ -72,37 +72,37 @@ Internship Medical Doctor \hfill 2015-2016
 
 *Funded by CDC* \hfill 2021-present
 
-**Researcher** : Analyse Indonesia national health insurance claims on capability to monitor potentially outbreak infectious disease surveillance using time series analysis and data visualization. Designing dashboard presentation of infectious disease surveillance using Indonesia national health insurance claims data to support potentially outbreak infectious disease surveillance program in Indonesia. Writing scientific publication on quality of Early Warning and Response System reporting in primary health care facility. Writing policy brief on implementation of Public Health Emergency Operation Center in regional settings.
+*Researcher* : Analyse Indonesia national health insurance claims on capability to monitor potentially outbreak infectious disease surveillance using time series analysis and data visualization. Designing dashboard presentation of infectious disease surveillance using Indonesia national health insurance claims data to support potentially outbreak infectious disease surveillance program in Indonesia. Writing scientific publication on quality of Early Warning and Response System reporting in primary health care facility. Writing policy brief on implementation of Public Health Emergency Operation Center in regional settings.
 
 **Integrated Health Surveillance System Supporting Covid-19 Emergency Response Operations**
 
 *Funded by World Bank Group* \hfill 2021-2022
 
-**Consultant**: Analyse workflow of Allrecord TC-19, an application used by Indonesia government to collect PCR and rapid antigen result for COVID-19 surveillance. Building online user guideline for Allrecord TC-19 application to help user get the update from the app. Held two batch of one week FHIR workshops for public/private hospitals, HIMS vendors, and healthcare startups.
+*Consultant*: Analyse workflow of Allrecord TC-19, an application used by Indonesia government to collect PCR and rapid antigen result for COVID-19 surveillance. Building online user guideline for Allrecord TC-19 application to help user get the update from the app. Held two batch of one week FHIR workshops for public/private hospitals, HIMS vendors, and healthcare startups.
 
 **Evaluation of Healthcare Gaps in Indonesian Health System**
 
 *African Medical and Research Foundation (AMREF)* \hfill 2022
 
-**Co - Principal Investigator**: Assisting Principal Investigator in conducting evaluation of healthcare system gaps with a focus on IBD, cancer, rare diseases and PDT treatment in Indonesia; Developing both quantitative and qualitative data collection methods from the stakeholders including governmental authorities, public and private healthcare providers (hospitals and primary care), healthcare NGOs, pharmaceutical companies; Coordinating field researcher in conducting data collection at national and regional level.
+*Co - Principal Investigator*: Assisting Principal Investigator in conducting evaluation of healthcare system gaps with a focus on IBD, cancer, rare diseases and PDT treatment in Indonesia; Developing both quantitative and qualitative data collection methods from the stakeholders including governmental authorities, public and private healthcare providers (hospitals and primary care), healthcare NGOs, pharmaceutical companies; Coordinating field researcher in conducting data collection at national and regional level.
 
 **Post-Abortion Care Supply Chain Management Assesment in Indonesia**
 
 *Funded by Ipas* \hfill 2020
 
-**Consultant** : Conducting Post-Abortion Care Supply Chain Management assesment in Indonesia involving MoH, public health office staffs, public health center staffs, hospital staffs, and post-abortion care logistics supplier.; Responsible for designing methodology and instruments.; Responsible for data quantitative and qualitative data collection and analysis.
+*Consultant* : Conducting Post-Abortion Care Supply Chain Management assesment in Indonesia involving MoH, public health office staffs, public health center staffs, hospital staffs, and post-abortion care logistics supplier.; Responsible for designing methodology and instruments.; Responsible for data quantitative and qualitative data collection and analysis.
 
 **Evaluation of Clinical Pathway Implementation in General Hospital in Indonesia**
 
 *Funded by Research and Development Ministry of Health Indonesia* \hfill 2019
 
-**Field Researcher Coordinator** : Coordinating with Principal Investigator in conducting data collection in the field; Coordination with the hospital for data collection procedure; Coordination with several enumerator for conduction data collection; Preparing qualitative data collection report (transription and verbatim) to Principal Investigator.
+*Field Researcher Coordinator* : Coordinating with Principal Investigator in conducting data collection in the field; Coordination with the hospital for data collection procedure; Coordination with several enumerator for conduction data collection; Preparing qualitative data collection report (transription and verbatim) to Principal Investigator.
 
 **Developing Monitoring and Evaluation System for Family Planning Program in National Family Planning Coordinating Agency (BKKBN)**
 
 *Funded by Bill-Melinda Gates Foundation (BMGF)* \hfill 2016-2017
 
-**Information Technology Specialist** : Doing needs assesment on monitoring and evaluation capacity in BKKBN. Then from the assesment result, designing monitoring and evaluation information system in national, regional, and district levels.
+*Information Technology Specialist* : Doing needs assesment on monitoring and evaluation capacity in BKKBN. Then from the assesment result, designing monitoring and evaluation information system in national, regional, and district levels.
 
 ----
 

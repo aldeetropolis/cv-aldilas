@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.8)  22 FEB 2023 13:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.8)  23 FEB 2023 09:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -564,11 +564,11 @@ Package rerunfilecheck Info: File `CV_aldilas.out' has not changed.
 (rerunfilecheck)             Checksum: E85673FC4FFA57144C8DB8AEBEFECFF4;526.
  ) 
 Here is how much of TeX's memory you used:
- 15588 strings out of 478268
- 243654 string characters out of 5846348
+ 15570 strings out of 478268
+ 243505 string characters out of 5846348
  582402 words of memory out of 5000000
  33301 multiletter control sequences out of 15000+600000
- 512725 words of font info for 240 fonts, out of 8000000 for 9000
+ 512284 words of font info for 225 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,12n,76p,1199b,476s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
@@ -581,7 +581,7 @@ live/2022/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/202
 texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2022/texmf-d
 ist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2022/texmf-dist/fon
 ts/type1/urw/palatino/uplri8a.pfb>
-Output written on CV_aldilas.pdf (3 pages, 121861 bytes).
+Output written on CV_aldilas.pdf (3 pages, 122284 bytes).
 PDF statistics:
  107 PDF objects out of 1000 (max. 8388607)
  87 compressed objects within 1 object stream
