@@ -1,6 +1,6 @@
 ---
 title: "CV"
-author: "dr. Aldilas Achmad Nursetyo, M.S."
+author: "Aldilas Achmad Nursetyo, M.D., M.S."
 output:
   pdf_document:
     latex_engine: pdflatex
@@ -28,7 +28,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # SUMMARY OF EXPERIENCE
 
-Since 2017, Aldilas has been actively involved in contribute and developing at national and regional level, either academically or direct consultancy. He has experience in developing monitoring and evaluation system in National Family Planning Coordinating Agency (BKKBN) and strengthening national disease surveillance system, especially for early warning and response system (EWARS). He also experienced in research methodology, either quantitative or qualitative methodology, while demonstrating excelence scientific writing and publication experience. Currently, he is active as researcher in Center for Health Policy and Management, Universitas Gadjah Mada, Indonesia.
+Since 2015, Aldilas has been actively provide contribution and development for Indonesia Health Information System both at national and regional level, either academically through publications or direct consultancy. He has experience in developing monitoring and evaluation system in National Family Planning Coordinating Agency (BKKBN) and strengthening national disease surveillance system, especially for early warning and response system (EWARS). Recently he also active as Technical Working Group member for Indonesia National Health Information development. He also experienced in research methodology, either quantitative or qualitative methodology, while demonstrating excelence scientific writing and publication experience. Currently, he is active as researcher in Center for Health Policy and Management, Universitas Gadjah Mada, Indonesia.
 
 ----
 
@@ -44,13 +44,23 @@ Since 2017, Aldilas has been actively involved in contribute and developing at n
 
 # EMPLOYMENT
 
-**Center for Health Policy & Management, Universitas Gadjah Mada**
+**ASEAN Biodiaspora Virtual Center**
 
-Researcher \hfill 2016-present
+Technical Officer \hfill 2023-present
+
+bla bla bla
 
 **World Bank Group**
 
 Consultant \hfill 2021-present
+
+**Center for Tropical Medicine, Universitas Gadjah Mada**
+
+Researcher \hfill 2020-present
+
+**Center for Health Policy & Management, Universitas Gadjah Mada**
+
+Researcher \hfill 2016-present
 
 **Apotek Viva Generik**
 
@@ -66,11 +76,27 @@ Internship Medical Doctor \hfill 2015-2016
 
 ----
 
+# ORGANIZATION
+
+*Medical Student Association*, Universitas Muhammadiyah Yogyakarta \hfill 2007-2009
+
+*Medical Research and Science Club*, Universitas Muhammadiyah Yogyakarta \hfill 2009-2012
+
+*Indonesia Medical Student Executive Board Association* \hfill 2008-2010
+
+*Asia e-Health Information Network (AeHIN)* \hfill 2016-present
+
+*Junior Doctor Networks Indonesia* \hfill 2019-2023
+
+----
+
 # PROJECTS
+
+**
 
 **Improving Quality of Disease Preparedness, Surveillance & Response In Indonesia (INSPIRASI)**
 
-*Funded by CDC* \hfill 2021-present
+*Funded by CDC* \hfill 2021-2023
 
 *Researcher* : Analyse Indonesia national health insurance claims on capability to monitor potentially outbreak infectious disease surveillance using time series analysis and data visualization. Designing dashboard presentation of infectious disease surveillance using Indonesia national health insurance claims data to support potentially outbreak infectious disease surveillance program in Indonesia. Writing scientific publication on quality of Early Warning and Response System reporting in primary health care facility. Writing policy brief on implementation of Public Health Emergency Operation Center in regional settings.
 
