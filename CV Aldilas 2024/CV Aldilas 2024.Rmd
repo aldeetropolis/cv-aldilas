@@ -1,8 +1,8 @@
 ---
 name: Aldilas Achmad
 surname: Nursetyo
+qualifications: "MD, MS"
 position: "Researcher/Consultant"
-pronouns: he/him
 address: "Center for Tropical Medicine, Universitas Gadjah Mada"
 phone: +62 81 391 699 700
 www: aldeetropolis.github.com
@@ -13,54 +13,58 @@ linkedin: aldilas-achmad-nursetyo
 date: "`r format(Sys.time(), '%d %B %Y')`"
 output:
   vitae::awesomecv:
-    page_total: true
+    keep_tex: true
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(tidyverse)
 library(vitae)
 ```
 
-# Some stuff about me
+```{r data}
+education <- tribble(
+  ~ degree, ~ year, ~ institution, ~ where,
+  "Bachelor of Medicine", "2007-2012", "Faculty of Medicine and Health Sciences, Universitas Muhammadiyah Yogyakarta", "Yogyakarta, Indonesia",
+  "Medical Doctor", "2012-2014", "Faculty of Medicine and Health Sciences, Universitas Muhammadiyah Yogyakarta", "Yogyakarta, Indonesia",
+  "Master of Science (Biomedical Informatics)", "2017-2019", "Graduate Institute of Biomedical Informatics, Taipei Medical University", "ROC Taiwan",
+)
 
- * I poisoned myself doing research.
- * I was the first woman to win a Nobel prize
- * I was the first person and only woman to win a Nobel prize in two different sciences.
+employment <- tribble(
+  ~ role, ~ company, ~ loc, ~ dates, ~ details,
+  "Technical Officer", "ASEAN Biodiaspora Virtual Center", "Jakarta, Indonesia", "2023-present", list("Responsible for developing surveillance data standards for ASEAN region", 
+                                                                                                      "Develop Standard Operating Procedure for infectious disease surveillance data sharing in ASEAN region",
+                                                                                                      "Responsible for data collection and analysis of biological threat based on epidemic intelligence"),
+  "Consultant", "World Bank Group", "Jakarta, Indonesia", "2021-2024", list("Provide technical assistance on interoperability in Satu Sehat using FHIR", 
+                                                                            "Provide technical assitance for interoperability between TB reporting, Satu Sehat Platform, and BPJS"),
+  "Researcher", "Center for Tropical Medicine", "Yogyakarta, Indonesia", "2020-present", list("Epidemic intelligence", "Infectious disease transmission dynamics"),
+  "Researcher", "Center for Health Policy and Management", "Yogyakarta, Indonesia", "2017-2023", list("INSPIRASI Project: Analyse Indonesia national health insurance claims on capability to monitor potentially outbreak infectious disease surveillance using time series analysis and data visualization. Designing dashboard presentation of infectious disease surveillance using Indonesia national health insurance claims data to support potentially outbreak infectious disease surveillance program in Indonesia. Writing scientific publication on quality of Early Warning and Response System reporting in primary health care facility. Writing policy brief on implementation of Public Health Emergency Operation Center in regional settings.",
+                                                                                                      "As Co-Principal Investigator for evaluation of healthcare system gaps with a focus on IBD, cancer, rare diseases and PDT treatment in Indonesia funded by African Medical Research Foundation (AMREF).",
+                                                                                                      "Developing monitoring and evaluation system for family planning program in National Family Planning Coordinating Agency (BKKBN)"),
+  "Researcher", "Sinergi Sehat Indonesia", "Yogyakarta, Indonesia", "2020-2023", list("Conducting Post-Abortion Care Supply Chain Management assesment in Indonesia involving MoH, public health office staffs, public health center staffs, hospital staffs, and post-abortion care logistics supplier.; Responsible for designing methodology and instruments.; Responsible for data quantitative and qualitative data collection and analysis.",
+                                                                                      "Develop assessment tools analyse quantitative and qualitative analysis on evaluation of TB Children program in Indonesia"),
+  "General Practitioner", "Apotek Viva Generik", "Yogyakarta, Indonesia", "2020-2021", list("Medical doctor"),
+  "Research Assistant", "International Center for Health Information Technology, Taipei Medical University", "Taipei, ROC Taiwan", "2018-2019", list("ASsist professor on manuscript writing"),
+  "Intern", "RSUD Inche Abdoel Moeis", "Samarinda, Indonesia", "2015-2016", list("Medical doctor intern")
+) 
+```
+
 
 # Education
 
 ```{r}
-library(tibble)
-tribble(
-  ~ Degree, ~ Year, ~ Institution, ~ Where,
-  "Informal studies", "1889-91", "Flying University", "Warsaw, Poland",
-  "Master of Physics", "1893", "Sorbonne Université", "Paris, France",
-  "Master of Mathematics", "1894", "Sorbonne Université", "Paris, France"
-) %>%
-  detailed_entries(Degree, Year, Institution, Where)
+detailed_entries(education, degree, year, institution, where)
 ```
 
-# Nobel Prizes
+# Employment
 
 ```{r}
-tribble(
-  ~Year, ~Type, ~Desc,
-  1903, "Physics", "Awarded for her work on radioactivity with Pierre Curie and Henri Becquerel",
-  1911, "Chemistry", "Awarded for the discovery of radium and polonium"
-) %>%
-  brief_entries(
-    glue::glue("Nobel Prize in {Type}"),
-    Year,
-    Desc
-  )
+detailed_entries(employment, role, dates, company, loc, details)
 ```
 
 # Publications
 
 ```{r}
-library(dplyr)
-knitr::write_bib(c("vitae", "tibble"), "packages.bib")
-
-bibliography_entries("packages.bib") %>%
+bibliography_entries("publications.bib") %>%
   arrange(desc(author$family), issued)
 ```
