@@ -2,8 +2,8 @@
 name: Aldilas Achmad
 surname: Nursetyo
 qualifications: "MD, MS"
-position: "Researcher/Consultant"
-address: "Center for Tropical Medicine, Universitas Gadjah Mada"
+position: "Researcher & Technical Officer"
+address: "Center for Tropical Medicine, Universitas Gadjah Mada | ASEAN Biodiaspora Virtual Center"
 phone: +62 81 391 699 700
 www: aldeetropolis.github.com
 email: "mail.aldilas@gmail.com"
