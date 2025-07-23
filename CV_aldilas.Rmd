@@ -44,12 +44,6 @@ Since 2015, Aldilas has been actively provide contribution and development for I
 
 # EMPLOYMENT
 
-**ASEAN Biodiaspora Virtual Center**
-
-Technical Officer \hfill 2023-present
-
-bla bla bla
-
 **World Bank Group**
 
 Consultant \hfill 2021-present
@@ -94,11 +88,11 @@ Internship Medical Doctor \hfill 2015-2016
 
 **Improving Quality of Disease Preparedness, Surveillance & Response In Indonesia (INSPIRASI)**
 
-*Funded by CDC* \hfill 2021-2023
+*Funded by CDC* \hfill 2021-present
 
 *Researcher* : Analyse Indonesia national health insurance claims on capability to monitor potentially outbreak infectious disease surveillance using time series analysis and data visualization. Designing dashboard presentation of infectious disease surveillance using Indonesia national health insurance claims data to support potentially outbreak infectious disease surveillance program in Indonesia. Writing scientific publication on quality of Early Warning and Response System reporting in primary health care facility. Writing policy brief on implementation of Public Health Emergency Operation Center in regional settings.
 
-**Integrated Health Surveillance System Supporting Covid-19 Emergency Response Operations**
+**Integrated Health Surveillance System Supporting COVID-19 Emergency Response Operations**
 
 *Funded by World Bank Group* \hfill 2021-2022
 
