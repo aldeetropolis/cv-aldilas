@@ -49,7 +49,6 @@ employment <- tribble(
 ) 
 ```
 
-
 # Education
 
 ```{r}

@@ -30,7 +30,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Since 2015, Aldilas has been actively provide contribution and development for Indonesia Health Information System both at national and regional level, either academically through publications or direct consultancy. He has experience in developing monitoring and evaluation system in National Family Planning Coordinating Agency (BKKBN) and strengthening national disease surveillance system, especially for early warning and response system (EWARS). Recently he also active as Technical Working Group member for Indonesia National Health Information development. He also experienced in research methodology, either quantitative or qualitative methodology, while demonstrating excelence scientific writing and publication experience. Currently, he is active as researcher in Center for Health Policy and Management, Universitas Gadjah Mada, Indonesia.
 
-----
+------------------------------------------------------------------------
 
 # EDUCATION
 
@@ -40,7 +40,7 @@ Since 2015, Aldilas has been actively provide contribution and development for I
 
 *Universitas Muhammadiyah Yogyakarta*, Bachelor of Medicine \hfill 2007-2012
 
-----
+------------------------------------------------------------------------
 
 # EMPLOYMENT
 
@@ -68,7 +68,7 @@ Research Assistant \hfill 2018-2019
 
 Internship Medical Doctor \hfill 2015-2016
 
-----
+------------------------------------------------------------------------
 
 # ORGANIZATION
 
@@ -82,7 +82,7 @@ Internship Medical Doctor \hfill 2015-2016
 
 *Junior Doctor Networks Indonesia* \hfill 2019-2023
 
-----
+------------------------------------------------------------------------
 
 # PROJECTS
 
@@ -122,7 +122,7 @@ Internship Medical Doctor \hfill 2015-2016
 
 *Information Technology Specialist* : Doing needs assesment on monitoring and evaluation capacity in BKKBN. Then from the assesment result, designing monitoring and evaluation information system in national, regional, and district levels.
 
-----
+------------------------------------------------------------------------
 
 # PUBLICATIONS
 
