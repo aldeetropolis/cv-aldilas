@@ -32,21 +32,26 @@ education <- tribble(
 
 employment <- tribble(
   ~ role, ~ company, ~ loc, ~ dates, ~ details,
-  "Technical Officer", "ASEAN Biological Threats Surveillance Centre", "Jakarta, Indonesia", "2023-present", list("Responsible for developing surveillance data standards for ASEAN region", 
-                                                                                                      "Develop Standard Operating Procedure for infectious disease surveillance data sharing in ASEAN region",
-                                                                                                      "Responsible for data collection and analysis of biological threat based on epidemic intelligence"),
-  "Researcher", "Center for Tropical Medicine, Universitas Gadjah Mada", "Yogyakarta, Indonesia", "2020-present", list("Epidemic intelligence", "Infectious disease transmission dynamics"),
-  "Consultant", "World Bank Group", "Jakarta, Indonesia", "2021-2024", list("Provide technical assistance on interoperability in Satu Sehat using FHIR", 
-                                                                            "Provide technical assitance for interoperability between TB reporting, Satu Sehat Platform, and BPJS"),
-  "Researcher", "Center for Health Policy and Management, Universitas Gadjah Mada", "Yogyakarta, Indonesia", "2017-2023", list("INSPIRASI Project: Analyse Indonesia national health insurance claims on capability to monitor potentially outbreak infectious disease surveillance using time series analysis and data visualization. Designing dashboard presentation of infectious disease surveillance using Indonesia national health insurance claims data to support potentially outbreak infectious disease surveillance program in Indonesia. Writing scientific publication on quality of Early Warning and Response System reporting in primary health care facility. Writing policy brief on implementation of Public Health Emergency Operation Center in regional settings.",
-                                                                                                      "As Co-Principal Investigator for evaluation of healthcare system gaps with a focus on IBD, cancer, rare diseases and PDT treatment in Indonesia funded by African Medical Research Foundation (AMREF).",
-                                                                                                      "Developing monitoring and evaluation system for family planning program in National Family Planning Coordinating Agency (BKKBN)"),
-  "Researcher", "Sinergi Sehat Indonesia", "Yogyakarta, Indonesia", "2020-2023", list("Conducting Post-Abortion Care Supply Chain Management assesment in Indonesia involving MoH, public health office staffs, public health center staffs, hospital staffs, and post-abortion care logistics supplier.; Responsible for designing methodology and instruments.; Responsible for data quantitative and qualitative data collection and analysis.",
-                                                                                      "Develop assessment tools analyse quantitative and qualitative analysis on evaluation of TB Children program in Indonesia"),
+  "Technical Officer", "ASEAN Biological Threats Surveillance Centre", "Jakarta, Indonesia", "2023-present",
+    list("Responsible for developing surveillance data standards for ASEAN region", 
+      "Develop Standard Operating Procedure for infectious disease surveillance data sharing in ASEAN region",
+      "Responsible for data collection and analysis of biological threat based on epidemic intelligence"),
+  "Researcher", "Center for Tropical Medicine, Universitas Gadjah Mada", "Yogyakarta, Indonesia", "2020-present",
+    list("AI for Pandemic Preparedness Project (AI4PEP) Project: as Program Manager handle communication with donors from IDRC and UK FCDO; develop implementation roadmap for artificial intelligence in pilot site (Yogyakarta Special Province) using AI-based forecasting platform and LLM-based syndromic surveillance to enhance capacity in predictive analysis to prevent infectious disease outbreak"),
+  "Consultant", "World Bank Group", "Jakarta, Indonesia", "2021-2024",
+    list("Provide technical assistance on interoperability in Satu Sehat using FHIR", 
+      "Provide technical assitance for interoperability between TB reporting, Satu Sehat Platform, and BPJS"),
+  "Researcher", "Center for Health Policy and Management, Universitas Gadjah Mada", "Yogyakarta, Indonesia", "2017-2023",
+    list("INSPIRASI Project: Analyse Indonesia national health insurance claims on capability to monitor potentially outbreak infectious disease surveillance using time series analysis and data visualization. Designing dashboard presentation of infectious disease surveillance using Indonesia national health insurance claims data to support potentially outbreak infectious disease surveillance program in Indonesia. Writing scientific publication on quality of Early Warning and Response System reporting in primary health care facility. Writing policy brief on implementation of Public Health Emergency Operation Center in regional settings.",
+    "As Co-Principal Investigator for evaluation of healthcare system gaps with a focus on IBD, cancer, rare diseases and PDT treatment in Indonesia funded by African Medical Research Foundation (AMREF).",
+    "Developing monitoring and evaluation system for family planning program in National Family Planning Coordinating Agency (BKKBN)"),
+  "Researcher", "Sinergi Sehat Indonesia", "Yogyakarta, Indonesia", "2020-2023",
+    list("Conducting Post-Abortion Care Supply Chain Management assesment in Indonesia involving MoH, public health office staffs, public health center staffs, hospital staffs, and post-abortion care logistics supplier.; Responsible for designing methodology and instruments.; Responsible for data quantitative and qualitative data collection and analysis.",
+      "Develop assessment tools analyse quantitative and qualitative analysis on evaluation of TB Children program in Indonesia"),
   "General Practitioner", "Apotek Viva Generik", "Yogyakarta, Indonesia", "2020-2021", list("Medical doctor"),
-  "Research Assistant", "International Center for Health Information Technology, Taipei Medical University", "Taipei, ROC Taiwan", "2018-2019", list("ASsist professor on manuscript writing"),
+  "Research Assistant", "International Center for Health Information Technology, Taipei Medical University", "Taipei, ROC Taiwan", "2018-2019", list("Assist in developing predictive modelling especially in chronic diseases such as cancer and chronic kidney diseases"),
   "Intern", "RSUD Inche Abdoel Moeis", "Samarinda, Indonesia", "2015-2016", list("Medical doctor intern")
-) 
+)
 ```
 
 # Education
