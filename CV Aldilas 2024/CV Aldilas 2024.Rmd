@@ -2,8 +2,8 @@
 name: Aldilas Achmad
 surname: Nursetyo
 qualifications: "MD, MS"
-position: "Researcher & Technical Officer"
-address: "Center for Tropical Medicine, Universitas Gadjah Mada | ASEAN Biodiaspora Virtual Center"
+position: "Data Analyst"
+address: "ASEAN Biological Threats Surveillance Centre"
 phone: +62 81 391 699 700
 www: aldeetropolis.github.com
 email: "mail.aldilas@gmail.com"
@@ -36,9 +36,9 @@ employment <- tribble(
     list("Responsible for developing surveillance data standards for ASEAN region", 
       "Develop Standard Operating Procedure for infectious disease surveillance data sharing in ASEAN region",
       "Responsible for data collection and analysis of biological threat based on epidemic intelligence"),
-  "Researcher", "Center for Tropical Medicine, Universitas Gadjah Mada", "Yogyakarta, Indonesia", "2020-present",
+  "Researcher", "Center for Tropical Medicine, Universitas Gadjah Mada", "Yogyakarta, Indonesia", "2020-2023",
     list("AI for Pandemic Preparedness Project (AI4PEP) Project: as Program Manager handle communication with donors from IDRC and UK FCDO; develop implementation roadmap for artificial intelligence in pilot site (Yogyakarta Special Province) using AI-based forecasting platform and LLM-based syndromic surveillance to enhance capacity in predictive analysis to prevent infectious disease outbreak"),
-  "Consultant", "World Bank Group", "Jakarta, Indonesia", "2021-2024",
+  "Consultant", "World Bank Group", "Jakarta, Indonesia", "2021-2023",
     list("Provide technical assistance on interoperability in Satu Sehat using FHIR", 
       "Provide technical assitance for interoperability between TB reporting, Satu Sehat Platform, and BPJS"),
   "Researcher", "Center for Health Policy and Management, Universitas Gadjah Mada", "Yogyakarta, Indonesia", "2017-2023",
